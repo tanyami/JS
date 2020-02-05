@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Code</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let codeAge = prompt ('Enter your Age');
+		codeAge = Number(codeAge);
+		console.log(typeof(codeAge));
+		console.log(typeof(codeAge) === 'number' && isNaN(codeAge) !== true)
+
+		if (typeof(codeAge) === 'number' && isNaN(codeAge) !== true) {
+			alert ('Thanks!');
+		} else {
+			alert ('Please, try again!');
+		}
+
+
+		let codeName = prompt ('Enter your Name');
+		codeName = 'codeName';
+		console.log (typeof(codeName));
+		console.log (typeof(codeName) === 'string' && codeName !== 'number' && isNaN(codeName) !== false);
+
+		if (typeof(codeName) === 'string' && codeName !== 'number' && isNaN(codeName) !== false) {
+			alert ('Thanks!');
+		} else {
+			alert ('Please, try again!');
+		}
+
+	</script>
+</body>
+</html>

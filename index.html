@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Часы</title>
+</head>
+<body>
+	<script type="text/javascript">
+		let min = prompt ('Введите число от 1 до 59');		
+		min = Number(min);
+		
+
+		if (min >= 0 && min < 15) {
+			alert ('1я четверть часа');
+		} else if (min >= 15 && min < 30) {
+			alert ('2я четверть часа');	
+		} else if (min >= 30 && min < 45) {
+			alert ('3я четверть часа');
+		} else if (min >= 45 && min <= 59){
+			alert ('4я четверть часа');
+		}
+		else {
+			alert ('Не выполнено условие ввода!');
+		}
+	</script>
+</body>
+</html>
